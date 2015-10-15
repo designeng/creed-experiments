@@ -22,9 +22,7 @@ const concatFiles = coroutine(function* (dir) {
     return results.join('');
 });
 
-const main = process => 
-    console.log("process.argv::::", process.argv);
-    concatFiles(process.argv[2])
+const main = process => concatFiles(process.argv[2])
     .then(s => process.stdout.write("RESULT:::: " + s + "\n"));
 
 main(process);
