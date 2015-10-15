@@ -1,0 +1,16 @@
+{
+  "name": "creed-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "creed": "^0.7.4",
+    "babel-node": "git://github.com/epoberezkin/node-babel.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis Savenok <denissavenok@gmail.com> (http://designeng.github.io/)",
+  "license": "ISC"
+}
